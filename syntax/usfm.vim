@@ -66,7 +66,7 @@ syn match usfmMs /^\\ms\s\?\d .\+/
 syn match usfmMr /^\\mr .\+/
 syn match usfmS /^\\s\s\?\d .\+/
 syn match usfmSr /^\\sr .\+/
-syn match usfmR /^\\r\s\?\d .\+/
+syn match usfmR /^\\r\s\? .\+/
 syntax region usfmRq start="\\rq\s" end="\\rq\*"
 syn match usfmD /^\\d .\+/
 syn match usfmSp /^\\sp .\+/
@@ -119,7 +119,7 @@ syn match usfmMi /^\\mi\s/
 syn match usfmNb /^\\nb/
 syn match usfmPc /^\\pc\s/
 syn match usfmPh /\\ph\s\?\d\+/
-syn match usfmB /^\\b\s/
+syn match usfmB /^\\b/
 
 hi link usfmP Function
 hi link usfmM Function
