@@ -11,19 +11,19 @@ Vim syntax file for [USFM](https://ubsicap.github.io/usfm/) files.
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug "letschurch/usfm.vim"
+Plug "LetsChurch/usfm.vim"
 ```
 
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
 {
-  "letschurch/usfm.vim"
+  "LetsChurch/usfm.vim"
 }
 ```
 
 ### [packer.nvim](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use 'letschurch/usfm.vim'
+use 'LetsChurch/usfm.vim'
 ```
